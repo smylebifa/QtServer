@@ -17,7 +17,7 @@ MyServer::MyServer(QObject *parent) : QObject(parent)
 
 }
 
-void rMyServer::newConnection()
+void MyServer::newConnection()
 {
     QTcpSocket *socket = server->nextPendingConnection();
 
